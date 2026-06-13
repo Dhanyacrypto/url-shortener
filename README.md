@@ -317,17 +317,17 @@ All project implementation, integration, debugging, testing, and deployment were
 
 ### Frontend
 
-Deployment Link: *To be added after deployment*
+Deployment Link: https://url-shortener-flame-nu.vercel.app/
 
 ### Backend
 
-Deployment Link: *To be added after deployment*
+Deployment Link: https://urlforge-backend.onrender.com
 
 ---
 
 ## Demo Video
 
-Demo Video Link: *To be added after recording*
+Demo Video Link: https://www.loom.com/share/d7f0f684e7304149839248f019676106
 
 ---
 
