@@ -4,6 +4,8 @@
 
 URLForge is a modern URL shortening platform built using the MERN stack. It allows users to shorten long URLs, create custom aliases, generate QR codes, track analytics, and manage all links through an interactive dashboard.
 
+---
+
 ## Features
 
 ### Authentication
@@ -37,6 +39,8 @@ URLForge is a modern URL shortening platform built using the MERN stack. It allo
 * Responsive UI
 * Dark Glassmorphism Theme
 
+---
+
 ## Tech Stack
 
 ### Frontend
@@ -62,12 +66,67 @@ URLForge is a modern URL shortening platform built using the MERN stack. It allo
 * JWT (JSON Web Tokens)
 * bcryptjs
 
+---
+
+## System Architecture
+
+![System Architecture](./screenshots/architecture.png)
+
+The URLForge application follows a MERN Stack architecture. The React frontend communicates with the Express.js backend through REST APIs. The backend handles authentication, URL shortening, custom aliases, analytics tracking, QR code generation, and database operations. MongoDB Atlas is used for storing users, URLs, and analytics data.
+
+---
+
+## Screenshots
+
+### Login Page
+
+![Login Page](./screenshots/login.png)
+
+Modern glassmorphism-based login interface with secure authentication.
+
+### Register Page
+
+![Register Page](./screenshots/register.png)
+
+User registration page with form validation and responsive design.
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+Centralized dashboard for creating short URLs, managing links, searching URLs, viewing top performers, and accessing analytics.
+
+### Analytics Page
+
+![Analytics](./screenshots/analytics.png)
+
+Displays click statistics, recent visits, and URL performance insights.
+
+### QR Code Feature
+
+![QR Code](./screenshots/qr.png)
+
+Generate and download QR codes for shortened URLs, making sharing easier across devices.
+
+---
+
 ## Project Structure
 
+```text
 url-shortener/
 ├── backend/
 ├── frontend/
-├── README.md
+├── screenshots/
+│   ├── architecture.png
+│   ├── login.png
+│   ├── register.png
+│   ├── dashboard.png
+│   ├── analytics.png
+│   └── qr.png
+└── README.md
+```
+
+---
 
 ## Installation
 
@@ -87,6 +146,8 @@ npm install
 npm run dev
 ```
 
+---
+
 ## Future Enhancements
 
 * URL Expiry
@@ -95,10 +156,12 @@ npm run dev
 * Link Sharing
 * Export Analytics Reports
 
+---
+
 ## Author
 
-Dhanya V
+**Dhanya V**
 
-B.Tech Artificial Intelligence and Data Science
+B.Tech – Artificial Intelligence and Data Science
 
 Dr. N.G.P Institute of Technology
