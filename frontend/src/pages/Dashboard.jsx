@@ -82,7 +82,7 @@ const [search, setSearch] = useState("");
 
   const copyUrl = (shortCode) => {
     navigator.clipboard.writeText(
-      `http://localhost:5000/${shortCode}`
+      `https://urlforge-backend.onrender.com/${shortCode}`
     );
 
     setCopied(true);
@@ -90,7 +90,7 @@ const [search, setSearch] = useState("");
   
   const generateQR = (shortCode) => {
   setQrValue(
-    `http://192.168.29.59/${shortCode}`
+    `https://urlforge-backend.onrender.com/${shortCode}`
   );
   
   setShowQR(true);
@@ -334,7 +334,7 @@ const downloadQR = () => {
 
             <a
   className="url-short"
-  href={`http://localhost:5000/${url.shortCode}`}
+  href={`https://urlforge-backend.onrender.com/${url.shortCode}`}
   target="_blank"
   rel="noreferrer"
 >
